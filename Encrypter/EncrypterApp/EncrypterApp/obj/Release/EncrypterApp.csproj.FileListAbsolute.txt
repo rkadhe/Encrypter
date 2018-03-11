@@ -1,0 +1,13 @@
+C:\Users\rkadh\Desktop\Source\repos\EncrypterApp\EncrypterApp\bin\Release\EncrypterApp.exe
+C:\Users\rkadh\Desktop\Source\repos\EncrypterApp\EncrypterApp\bin\Release\EncrypterApp.pdb
+C:\Users\rkadh\Desktop\Source\repos\EncrypterApp\EncrypterApp\obj\Release\EncrypterApp.EncrypterApp.resources
+C:\Users\rkadh\Desktop\Source\repos\EncrypterApp\EncrypterApp\obj\Release\EncrypterApp.Properties.Resources.resources
+C:\Users\rkadh\Desktop\Source\repos\EncrypterApp\EncrypterApp\obj\Release\EncrypterApp.csproj.GenerateResource.Cache
+C:\Users\rkadh\Desktop\Source\repos\EncrypterApp\EncrypterApp\obj\Release\EncrypterApp.csproj.CoreCompileInputs.cache
+C:\Users\rkadh\Desktop\Source\repos\EncrypterApp\EncrypterApp\obj\Release\EncrypterApp.exe
+C:\Users\rkadh\Desktop\Source\repos\EncrypterApp\EncrypterApp\obj\Release\EncrypterApp.pdb
+C:\Users\rkadh\Desktop\Source\repos\EncrypterApp\EncrypterApp\obj\Release\EncrypterApp.csprojResolveAssemblyReference.cache
+C:\Users\rkadh\Desktop\Source\repos\EncrypterApp\EncrypterApp\bin\Release\EncrypterApp.exe.manifest
+C:\Users\rkadh\Desktop\Source\repos\EncrypterApp\EncrypterApp\bin\Release\EncrypterApp.application
+C:\Users\rkadh\Desktop\Source\repos\EncrypterApp\EncrypterApp\obj\Release\EncrypterApp.exe.manifest
+C:\Users\rkadh\Desktop\Source\repos\EncrypterApp\EncrypterApp\obj\Release\EncrypterApp.application
