@@ -96,12 +96,12 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Garamond", 16.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Garamond", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label2.Location = new System.Drawing.Point(10, 283);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(488, 48);
+            this.label2.Size = new System.Drawing.Size(451, 48);
             this.label2.TabIndex = 4;
             this.label2.Text = "Type sentence to encrypt:";
             // 
@@ -157,12 +157,12 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Garamond", 16.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Garamond", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.Desktop;
             this.label3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label3.Location = new System.Drawing.Point(16, 283);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(415, 48);
+            this.label3.Size = new System.Drawing.Size(386, 48);
             this.label3.TabIndex = 6;
             this.label3.Text = "Type code to decrypt:";
             // 
@@ -222,8 +222,8 @@
             // 
             this.richTextBox2.BackColor = System.Drawing.Color.White;
             this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox2.Font = new System.Drawing.Font("Garamond", 16F);
-            this.richTextBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(204)))), ((int)(((byte)(0)))));
+            this.richTextBox2.Font = new System.Drawing.Font("Garamond", 16.125F);
+            this.richTextBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(210)))), ((int)(((byte)(0)))));
             this.richTextBox2.Location = new System.Drawing.Point(531, 672);
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.ReadOnly = true;
@@ -283,7 +283,7 @@
             // 
             this.richTextBox3.BackColor = System.Drawing.Color.White;
             this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox3.Font = new System.Drawing.Font("Garamond", 16.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox3.Font = new System.Drawing.Font("Garamond", 16.1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox3.ForeColor = System.Drawing.Color.Black;
             this.richTextBox3.Location = new System.Drawing.Point(29, 616);
             this.richTextBox3.Name = "richTextBox3";
@@ -296,7 +296,7 @@
             // 
             this.richTextBox4.BackColor = System.Drawing.Color.White;
             this.richTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox4.Font = new System.Drawing.Font("Garamond", 16.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox4.Font = new System.Drawing.Font("Garamond", 16.1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox4.ForeColor = System.Drawing.Color.Black;
             this.richTextBox4.Location = new System.Drawing.Point(531, 616);
             this.richTextBox4.Name = "richTextBox4";
@@ -316,9 +316,9 @@
             this.InstructionsPanel.Controls.Add(this.Start);
             this.InstructionsPanel.Controls.Add(this.label4);
             this.InstructionsPanel.Controls.Add(this.button1);
-            this.InstructionsPanel.Location = new System.Drawing.Point(3, 12);
+            this.InstructionsPanel.Location = new System.Drawing.Point(0, 12);
             this.InstructionsPanel.Name = "InstructionsPanel";
-            this.InstructionsPanel.Size = new System.Drawing.Size(1023, 780);
+            this.InstructionsPanel.Size = new System.Drawing.Size(1025, 775);
             this.InstructionsPanel.TabIndex = 17;
             // 
             // pictureBox4
