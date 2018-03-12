@@ -11,9 +11,12 @@ namespace EncrypterApp
 {
     public partial class EncrypterApp : Form
     {
+       
         public EncrypterApp()
         {
             InitializeComponent();
+           
+            
         }
         /* This allows to move borderless window*/
         protected override void WndProc(ref Message m)
@@ -29,69 +32,10 @@ namespace EncrypterApp
 
             base.WndProc(ref m);
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-        }
-
-        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-      
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
+        
         private void aboutToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Created by: Rohit Kadhe");
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-            // isVisible in properties is set to false; remember!!
-        }
-
-        private void richTextBox3_TextChanged(object sender, EventArgs e)
-        {
-            // isVisible in properties is set to false; remember!!
         }
 
         private void EncryptMessage_Click(object sender, EventArgs e)
@@ -100,10 +44,7 @@ namespace EncrypterApp
             encrypt(input);
         }
 
-        private void richTextBox1_TextChanged_1(object sender, EventArgs e)
-        {
-
-        }
+        /*Message encryption logic*/
         void encrypt(string message)
         {
             int[] code = new int[100000];
@@ -121,9 +62,9 @@ namespace EncrypterApp
             }
 
             richTextBox1.Text = codeString;
-
         }
 
+        /*Message decryption logic*/
         void decrypt(string message)
         {
 
@@ -136,6 +77,7 @@ namespace EncrypterApp
             {
                 intermediate[i] = message[i] - '0';
             }
+
             /*Converts code from a number to string*/
             while (j <= message.Length)
             {
@@ -151,6 +93,7 @@ namespace EncrypterApp
                     j++;
                 }
             }
+
             /*Prints converted code*/
             for (int k = 0; k < message.Length; k++)
             {
@@ -159,31 +102,13 @@ namespace EncrypterApp
             }
             richTextBox2.Text = finalDecodedM;
         }
-         /*Displays instructions*/
-        string displayInstructions()
-        {
-            string instructions =  ("Type a sentence to encrypt in the grey box.\n\n" +
-            "Click encrypt message to get a code.\n\n" +
-            "Type code in the grey box to decrypt message.\n\n" +
-            "Click decrypt message to get the encrypted message.");
-            return instructions;
-        }
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
+        /*decrypt function caller*/
         private void DecryptMessage_Click(object sender, EventArgs e)
         {
             string message = textBox1.Text;
             decrypt(message);
         }
-
-        private void richTextBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
+        /*Clears all textboxes*/
         private void clearAllFieldsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             richTextBox1.Text = "";
@@ -191,15 +116,21 @@ namespace EncrypterApp
             textBox1.Text = "";
             textBox2.Text = "";
         }
- 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        /*Quits application*/
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
 
-        private void instructionsToolStripMenuItem_Click(object sender, EventArgs e)
+
+        private void Exit_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(displayInstructions());
+            Application.Exit();
+        }
+
+        private void Start_Click(object sender, EventArgs e)
+        {
+            InstructionsPanel.Hide();
         }
     }
 }
